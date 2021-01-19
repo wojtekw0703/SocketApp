@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="klient.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="307.0" layoutY="34.0" onAction="#handleButtonAction" text="Pobierz datę z serwera" />
+        <Label fx:id="label" layoutX="113.0" layoutY="37.0" minHeight="16" minWidth="69" />
+      <Accordion layoutX="104.0" layoutY="46.0" />
+      <Label layoutX="20.0" layoutY="38.0" prefHeight="17.0" prefWidth="136.0" text="Data: " />
+    </children>
+</AnchorPane>
